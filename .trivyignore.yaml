@@ -1,0 +1,6 @@
+# Accepted trivy findings for the Sheepit ECS module (scripts/check.sh fails on HIGH and
+# CRITICAL). Every entry needs a statement saying why it is accepted. None today.
+#
+# Note: trivy does not evaluate the execution role's inline policy (it holds values known only
+# after apply). Its no-wildcard property is asserted in tests/sheepit_app.tftest.hcl instead.
+misconfigurations: []
